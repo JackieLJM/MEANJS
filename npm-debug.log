@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@3.4.0
+3 info using node@v5.0.0
+4 verbose config Skipping project config: /Users/JackieLJM/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly loadAllDepsIntoIdealTree Finishing
+21 silly idealTree:prePrune JackieLJM
+22 silly loadIdealTree Finishing
+23 silly currentTree JackieLJM
+24 silly idealTree JackieLJM
+25 silly generateActionsToTake Starting
+26 silly install generateActionsToTake
+27 silly generateActionsToTake Finishing
+28 silly diffTrees action count 0
+29 silly decomposeActions action count 0
+30 silly executeActions Starting
+31 silly install executeActions
+32 silly doSerial global-install 0
+33 silly doParallel fetch 0
+34 verbose makeDirectory /Users/JackieLJM/.npm/_locks creation not in flight; initializing
+35 silly makeDirectory /Users/JackieLJM/.npm/_locks uid: 501 gid: 20
+36 verbose lock using /Users/JackieLJM/.npm/_locks/staging-854f0bacd9c2ddf6.lock for /Users/JackieLJM/node_modules/.staging
+37 verbose unlock done using /Users/JackieLJM/.npm/_locks/staging-854f0bacd9c2ddf6.lock for /Users/JackieLJM/node_modules/.staging
+38 silly rollbackFailedOptional Starting
+39 silly rollbackFailedOptional Finishing
+40 silly runTopLevelLifecycles Starting
+41 silly runTopLevelLifecycles Finishing
+42 silly install printInstalled
+43 warn ENOENT ENOENT: no such file or directory, open '/Users/JackieLJM/package.json'
+44 warn EPACKAGEJSON JackieLJM No description
+45 warn EPACKAGEJSON JackieLJM No repository field.
+46 warn EPACKAGEJSON JackieLJM No README data
+47 warn EPACKAGEJSON JackieLJM No license field.
+48 verbose stack Error: EACCES: permission denied, mkdir '/Users/JackieLJM/node_modules/.staging'
+48 verbose stack     at Error (native)
+49 verbose cwd /Users/JackieLJM/Desktop/meanJS
+50 error Darwin 15.0.0
+51 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+52 error node v5.0.0
+53 error npm  v3.4.0
+54 error path /Users/JackieLJM/node_modules/.staging
+55 error code EACCES
+56 error errno -13
+57 error syscall mkdir
+58 error Error: EACCES: permission denied, mkdir '/Users/JackieLJM/node_modules/.staging'
+58 error     at Error (native)
+58 error  { [Error: EACCES: permission denied, mkdir '/Users/JackieLJM/node_modules/.staging']
+58 error   errno: -13,
+58 error   code: 'EACCES',
+58 error   syscall: 'mkdir',
+58 error   path: '/Users/JackieLJM/node_modules/.staging' }
+59 error Please try running this command again as root/Administrator.
+60 verbose exit [ -13, true ]
