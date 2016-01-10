@@ -1,0 +1,27 @@
+{
+  "name": "MeanJS-Cordova",
+  "homepage": "https://github.com/JackieLJM/MEANJS-by-Jackie",
+  "authors": [
+    "JackieLJM <ljmlionsy@live.com>"
+  ],
+  "description": "Main Hybird-Tech with MeanJS and Cordova.",
+  "main": "bower_components",
+  "moduleType": [],
+  "keywords": [
+    "Grunt",
+    "and",
+    "tools."
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "grunt": "~0.4.5"
+  }
+}
